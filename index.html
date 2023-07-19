@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de números</h1>
+        <form id="form-numeros">
+            <input type="number" id="p-numero" required placeholder="Primeiro número">
+            <input type="number" id="s-numero" required placeholder="Segundo número">
+            <p class="error-message">
+                O segundo número precisa ser maior que o primeiro número
+            </p>
+            <button id="btn-validar" type="submit">Validar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
